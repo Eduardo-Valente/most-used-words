@@ -18,6 +18,18 @@ export default {
                 { name: 'i', amount: 1234 },
                 { name: 'you', amount: 900 },
                 { name: 'he', amount: 853 },
+                { name: 'i', amount: 1234 },
+                { name: 'you', amount: 900 },
+                { name: 'he', amount: 853 },
+                { name: 'i', amount: 1234 },
+                { name: 'you', amount: 900 },
+                { name: 'he', amount: 853 },
+                { name: 'i', amount: 1234 },
+                { name: 'you', amount: 900 },
+                { name: 'he', amount: 853 },
+                { name: 'i', amount: 1234 },
+                { name: 'you', amount: 900 },
+                { name: 'he', amount: 853 }
             ]
         }
     }
@@ -25,5 +37,9 @@ export default {
 </script>
 
 <style>
-
+  .pills {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+  }
 </style>
